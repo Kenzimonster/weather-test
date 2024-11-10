@@ -1,4 +1,5 @@
-import CitySearch from "./CitySearch"
+import CitySearch from "./CitySearch";
+import Footer from "./Footer";
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ return (
         <h1> Goblin Weather Teller</h1>
         <CitySearch />
       </section>
+      <Footer/ >
     </div>
   );
 }
