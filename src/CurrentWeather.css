@@ -1,0 +1,43 @@
+.currentWeather {
+  color: #272044;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.currentCity {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.currentWeatherDescription {
+  opacity: 0.6;
+}
+
+.currentHumidity,
+.currentWindspeed {
+  font-weight: bold;
+}
+.currentTemp {
+  display: flex;
+}
+
+.currentTempIcon {
+  font-size: 45px;
+}
+
+.currentTempIcon {
+  height: 100px;
+}
+
+.currentTempValue {
+  font-weight: bolder;
+  font-size: 90px;
+  line-height: 100px;
+}
+
+.currentTempUnit {
+  font-size: 30px;
+  left: 5px;
+  position: relative;
+}
